@@ -1,8 +1,6 @@
 package com.example.kameleoontestproject.core.dto;
 
-import lombok.Data;
+import java.io.Serializable;
 
-@Data
-public class User {
-    private String username;
+public record UserDto(Long id, String username) implements Serializable {
 }

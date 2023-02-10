@@ -1,7 +1,7 @@
 package com.example.kameleoontestproject.core.dto;
 
-/**
- * A DTO for the {@link com.example.kameleoontestproject.database.entity.Score} entity
- */
-public class ScoreDto {
+import java.io.Serializable;
+import java.time.LocalDateTime;
+
+public record ScoreDto(Long id, LocalDateTime timestamp, Long userId, Long quoteId) implements Serializable {
 }

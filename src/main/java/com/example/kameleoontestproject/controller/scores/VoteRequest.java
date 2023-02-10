@@ -1,4 +1,4 @@
-package com.example.kameleoontestproject.controller.quote;
+package com.example.kameleoontestproject.controller.scores;
 
-public record UpvoteRequest(Long userId, Long quoteId) {
+public record VoteRequest(Long id, Long userId, Long quoteId) {
 }

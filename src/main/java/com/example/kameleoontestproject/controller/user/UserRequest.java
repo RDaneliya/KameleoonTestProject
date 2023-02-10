@@ -1,2 +1,4 @@
-package com.example.kameleoontestproject.controller.user;public class UserRequest {
+package com.example.kameleoontestproject.controller.user;
+
+public record UserRequest(String username) {
 }
